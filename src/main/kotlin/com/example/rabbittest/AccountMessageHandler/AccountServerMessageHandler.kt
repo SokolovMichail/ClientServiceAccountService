@@ -34,7 +34,7 @@ class AccountServerMessageHandler(
             //Ну и закидываем сообщение в ошибку
             this.template.convertAndSend("replies",
                     gson.toJson(JSONMessage(inp)))
-            //ea[pgj
+
             this.template.convertAndSend("errors",inp)
         }
     }

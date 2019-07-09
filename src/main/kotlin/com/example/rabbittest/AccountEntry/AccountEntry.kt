@@ -9,7 +9,7 @@ import javax.persistence.Id
 class AccountEntry(
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
-        var id: Int? = null,
-        var surname: String? = "Pass",
+        var id: Int = 0,
+        var surname: String = "Pass",
         var account_number: String = "ERR_NO_ACC_REP") {
 }
