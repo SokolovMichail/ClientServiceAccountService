@@ -1,6 +1,6 @@
-package com.example.rabbittest.AccountMessageHandler
+package com.example.rabbittest.accountmessagehandler
 
-import com.example.rabbittest.AccountRepository.AccountRepository
+import com.example.rabbittest.accountrepository.AccountRepository
 import com.google.gson.Gson
 import mu.KotlinLogging
 import org.springframework.amqp.rabbit.annotation.RabbitHandler

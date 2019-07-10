@@ -1,6 +1,6 @@
-package com.example.rabbittest.AccountRepository
+package com.example.rabbittest.accountrepository
 
-import com.example.rabbittest.AccountEntry.AccountEntry
+import com.example.rabbittest.accountentry.AccountEntry
 import org.springframework.data.jpa.repository.JpaRepository
 import java.util.*
 

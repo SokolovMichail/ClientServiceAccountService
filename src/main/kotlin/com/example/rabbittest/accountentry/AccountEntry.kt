@@ -1,4 +1,4 @@
-package com.example.rabbittest.AccountEntry
+package com.example.rabbittest.accountentry
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
